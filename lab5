@@ -1,0 +1,10 @@
+n=int(input())
+B=[]
+
+for i in range(n):
+    eded=int(input())
+    B.append(eded)
+    
+cem = sum(B)
+orta=cem/n 
+print(orta)
